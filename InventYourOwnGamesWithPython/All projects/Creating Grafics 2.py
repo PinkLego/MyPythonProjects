@@ -84,7 +84,7 @@ while True:
 
         # Draw the window onto the surface.
         pygame.draw.rect(windowSurface, b['color'], b['rect'])
-
+     
     # Draw the window onto the screen.
     pygame.display.update()
     time.sleep(0.02)
