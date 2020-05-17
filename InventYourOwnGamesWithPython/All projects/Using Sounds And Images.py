@@ -93,7 +93,7 @@ while True:
     if moveRight and player.right = WINDOWHEIGHT:
         player.right += MOVESPEED
 
-    # Draw the player onto the surface.
+        # Draw the player onto the surface.
     pygame.draw.rect(windowSurface, BLACK, player)
 
     # Check whether the player has intersected with any food squares.
