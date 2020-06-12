@@ -1,0 +1,11 @@
+print("Create your character")
+name = input("What is you character called?")
+
+age = input("How old is your character?")
+strengths = input("What is your character's strenghts?")
+weakness = input("What are your character's weaknesses?")
+print("Your character's name is", name)
+print("Your character is", age, "years old")
+print("Strenghts:", strenghts)
+print("Weaknesses", weaknesses)
+print(name, "says, 'Thanks for creating me!'")
