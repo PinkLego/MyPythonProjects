@@ -14,4 +14,6 @@ SCREEN_HEIGHT = 800
 
 wn = turtle.Screen()
 wn.setup(SCREEN_WIDTH, SCREEN_HEIGHT)
-wn
+wn.title("Space Arena! by EDM slushii touché")
+wn.bgcolor("black")
+
