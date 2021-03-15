@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+// use a guide for another app not for music though
 void main() {
   runApp(MyApp());
 }
