@@ -1,5 +1,5 @@
 try:
-    with open("Exceptions.py") as file:
+    with open("Exceptions.py") as file:  # the with statement is for adding external resources
         print("opening file")
         print("File opened sucessfully")
     # open returns a file object
@@ -18,7 +18,7 @@ except (ValueError, ZeroDivisionError):  # as ex
     # so you can put the exception in line
 else:
     print("no exceptions were thrown. lol.")
-finally:#this is executed 
+finally:  # this is executed
     file.close
 # this code will be executed because we are handling it properly
 print("Execution continues.")
